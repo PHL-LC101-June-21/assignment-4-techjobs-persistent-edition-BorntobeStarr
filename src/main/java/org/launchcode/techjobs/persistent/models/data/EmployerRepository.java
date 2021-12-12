@@ -7,9 +7,6 @@ import org.springframework.stereotype.Repository;
 import java.util.Optional;
 
 //import javax.transaction.Transactional;
-
 @Repository
-//@Transactional
 public interface EmployerRepository extends CrudRepository<Employer, Integer> {
-//    Optional<Employer> findById(int employerId);
 }
