@@ -8,6 +8,7 @@ import java.util.List;
 @Entity
 public class Employer extends AbstractEntity {
 
+    private String location;
     @NotBlank
     private String Location;
 
