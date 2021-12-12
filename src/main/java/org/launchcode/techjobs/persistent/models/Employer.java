@@ -21,13 +21,12 @@ public class Employer extends AbstractEntity {
     @Size(min = 1, max = 100)
     public String location;
 
-    //Set onetomany
+    //Set one to many
     @OneToMany
     @JoinColumn(name = "employer_id")
-
-//    @OneToMany(mappedBy = "employer")
     private List<Job> jobs = new ArrayList<>();
 
+    //no arg consstructor
     public Employer() {}
 
     public Employer(String location) {
