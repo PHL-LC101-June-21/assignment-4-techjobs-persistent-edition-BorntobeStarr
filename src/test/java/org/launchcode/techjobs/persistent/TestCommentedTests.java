@@ -30,3 +30,4 @@ public class TestCommentedTests extends AbstractTest {
         assertEquals(19, numTests);
     }
 }
+

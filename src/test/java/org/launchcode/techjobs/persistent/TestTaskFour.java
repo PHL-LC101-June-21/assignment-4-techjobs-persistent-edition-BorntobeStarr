@@ -227,5 +227,4 @@ public class TestTaskFour extends AbstractTest {
         boolean queryFound = queryMatcher.find();
         assertFalse(queryFound, "Task 4 SQL query is incorrect. Test your query against your database to find the error.");
     }
-
 }

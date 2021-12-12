@@ -54,5 +54,4 @@ public class TestTaskOne extends AbstractTest{
         assertTrue(mysqlFound, "MySQL dependency not found or is incorrect");
 
     }
-
 }
